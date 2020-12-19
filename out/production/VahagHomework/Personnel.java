@@ -7,6 +7,7 @@ public class Personnel {
     private String name;
     private String surname;
     private String position;
+    private int experience;
 
     public String getName() {
         return name;
@@ -40,7 +41,7 @@ public class Personnel {
         this.experience = experience;
     }
 
-    private int experience;
+
 
     void canCareOfAnimals() {
         System.out.println("Personnel can care of animals");
